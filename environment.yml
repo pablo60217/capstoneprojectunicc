@@ -1,0 +1,28 @@
+name: tweet-model-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scikit-learn
+  - transformers
+  - datasets
+  - datetime 
+  - openai
+  - tiktoken
+  - scipy
+  - tqdm
+  - emoji
+  - pip
+  - pip:
+      - emoji
+      - unidecode
+      - nltk
+      - spacy
+      - spacy-langdetect
+      - spacy-transformers
+      - spacy-lookups-data
+      - ray[tune]
+      - exceptiongroup
